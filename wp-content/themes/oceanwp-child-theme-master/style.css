@@ -9,3 +9,117 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
+#wpcf7-f172-p132-o1 > form > div.compteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(1) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+   }
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(2) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(3) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(4) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+}
+.contactform label {
+    color: #ffffff;
+     font-family: 'syne';
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.contactform p input {
+    background-color: #ffffff;
+    border-radius: 7px;
+    width: 383px;
+    height: 71px;
+    border: none;
+}
+
+#wpcf7-f104-p110-o1 > form > div.contactform > p:nth-child(3) > label > span > textarea{
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: none;
+}
+
+#wpcf7-f104-p110-o1 > form > p > input {
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.page-id-132 #content-wrap {
+    background-color: #3b8e46;
+}
+
+.colonnes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col1, .col2 {
+    width: 50%;
+}
+
+.col1 h2 {
+    font-family: syne;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.col1 p input {
+    background-color: #ffffff;
+    border-radius: 7px;
+    width: 383px;
+    height: 71px;
+ }
+ 
+ .col1 p label {
+     color: #ffffff;
+     font-family: 'syne';
+     font-size: 20px;
+     font-weight: 400;
+ }
+.col2 {
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    border-left-width: 1px;  
+}
+
+.col2 h2 {
+    font-family: syne;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.col2 p input {
+   background-color: #ffffff;
+   border-radius: 7px;
+   width: 383px;
+   height: 71px;
+}
+
+.col2 p label {
+    color: #ffffff;
+    font-family: 'syne';
+    font-size: 20px;
+    font-weight: 400;
+}
