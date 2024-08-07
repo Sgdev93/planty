@@ -9,35 +9,8 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
-#wpcf7-f172-p132-o1 > form > div.compteur {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
-#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(1) > span > input {
-    background-color: #ffffff;
-    width: 39px;
-    height: 56px;
-   }
-
-#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(2) > span > input {
-    background-color: #ffffff;
-    width: 39px;
-    height: 56px;
-}
-
-#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(3) > span > input {
-    background-color: #ffffff;
-    width: 39px;
-    height: 56px;
-}
-
-#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(4) > span > input {
-    background-color: #ffffff;
-    width: 39px;
-    height: 56px;
-}
+/******page Nous rencontrer ******/
 .contactform label {
     color: #ffffff;
      font-family: 'syne';
@@ -64,15 +37,56 @@ Version: 1.0
     height: 55px;
     border-radius: 5px;
 }
-
+/*******page commander*******/
 .page-id-132 #content-wrap {
     background-color: #3b8e46;
+}
+
+#content > article > div > div > div.elementor-element.elementor-element-6192729.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div {
+    border-top-style: solid;
+    border-top-color: #ffffff;
+    border-width: 1px;
+    padding-top: 40px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: #ffffff;
+    border-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 20px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(1) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+   }
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(2) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(3) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(4) > span > input {
+    background-color: #ffffff;
+    width: 39px;
+    height: 56px;
 }
 
 .colonnes {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .col1, .col2 {
@@ -98,10 +112,15 @@ Version: 1.0
      font-size: 20px;
      font-weight: 400;
  }
+
+.col1 {
+    border-right-style: solid;
+    border-right-color: #ffffff;
+    border-right-width: 1px; 
+}
+
 .col2 {
-    border-left-style: solid;
-    border-left-color: #ffffff;
-    border-left-width: 1px;  
+    padding-left: 40px;
 }
 
 .col2 h2 {
@@ -110,6 +129,7 @@ Version: 1.0
     font-weight: 700;
     color: #ffffff;
 }
+
 .col2 p input {
    background-color: #ffffff;
    border-radius: 7px;
@@ -122,4 +142,24 @@ Version: 1.0
     font-family: 'syne';
     font-size: 20px;
     font-weight: 400;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.submit > p > input {
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+}
+
+@media screen (max-width : 1024px) {
+
+}
+
+@media screen (max-width : 768px) {
+    
 }
