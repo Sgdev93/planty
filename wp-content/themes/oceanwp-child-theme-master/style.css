@@ -10,6 +10,46 @@ Version: 1.0
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
 
+/*********Header********/
+#masthead > div > div {
+    margin: 0;
+    padding: 0;
+}
+
+#masthead > div > div > div.elementor-element.elementor-element-efafd52.e-con-full.e-flex.e-con.e-child {
+    padding-top: 30px;
+}
+
+#masthead > div > div > div.elementor-element.elementor-element-8030a99.e-con-full.e-flex.e-con.e-child {
+    padding: 0;
+}
+
+#menu-1-d0c536d a, .menu-admin a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 30px;
+    font-family: "Syne", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 0px;
+}
+
+#menu-1-d0c536d li {
+    order: 0;
+}
+
+#menu-1-d0c536d > li.menu-item.menu-admin {
+    order: 1;
+}
+
+#menu-1-d0c536d #menu-item-140 {
+    order: 2;
+}
+
+#menu-1-d0c536d {
+    align-items: center;
+}
+
 /******Accueil***********/
 #content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div {
     width: auto;
@@ -17,8 +57,7 @@ Version: 1.0
 
 /******page Nous rencontrer ******/
 .contactform label {
-    color: #ffffff;
-     font-family: 'syne';
+    font-family: 'syne';
      font-size: 20px;
      font-weight: 400;
 }
@@ -171,44 +210,6 @@ Version: 1.0
     width: 198px;
     height: 55px;   
 }
-/*********Header********/
-#masthead > div > div {
-    margin: 0;
-    padding: 0;
-}
-
-#masthead > div > div > div.elementor-element.elementor-element-efafd52.e-con-full.e-flex.e-con.e-child {
-    padding-top: 30px;
-}
-
-#masthead > div > div > div.elementor-element.elementor-element-8030a99.e-con-full.e-flex.e-con.e-child {
-    padding: 0;
-}
-
-#menu-1-d0c536d a, .menu-admin a {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: "Syne", Sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    word-spacing: 0px;
-}
-
-#menu-1-d0c536d li {
-    order: 0;
-}
-
-#menu-1-d0c536d > li.menu-item.menu-admin {
-    order: 1;
-}
-
-#menu-1-d0c536d #menu-item-140 {
-    order: 2;
-}
-
-footer .menu-admin {
-    display: none;
-}
 
 @media screen and (max-width : 1024px) {
 
@@ -218,6 +219,10 @@ footer .menu-admin {
     
 }
 
+/*****page nous rencontrer******/
+#content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {
+    width: 80%;
+}
 /******page commander******/
 .colonnes {
        flex-direction: column;
@@ -253,15 +258,13 @@ footer .menu-admin {
  }
  /**************image hero**********/
  #content > article > div > div > div.elementor-element.elementor-element-524bb3f.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div.elementor-element.elementor-element-fd26bab.elementor-position-left.elementor-vertical-align-bottom.elementor-absolute.elementor-widget.elementor-widget-image-box > div > div > figure {
-    margin: 0;
-    padding: 0;
+    display: none;
  }
- #content > article > div > div > div.elementor-element.elementor-element-524bb3f.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div.elementor-element.elementor-element-fd26bab.elementor-position-left.elementor-vertical-align-bottom.elementor-absolute.elementor-widget.elementor-widget-image-box > div > div > figure > img {
-    width: 20%;
-    margin: 0;
-    padding: 0;
- }
-
+ 
+/************feuille équipe*************/
+#content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {
+    width: 60%;
+}
     /*******page commander*******/
 .col1 p input, .col2 p input {
         width: 100%; 
