@@ -10,6 +10,11 @@ Version: 1.0
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
 
+/******Accueil***********/
+#content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div {
+    width: auto;
+}
+
 /******page Nous rencontrer ******/
 .contactform label {
     color: #ffffff;
@@ -26,7 +31,7 @@ Version: 1.0
     border: none;
 }
 
-#wpcf7-f104-p110-o1 > form > div.contactform > p:nth-child(3) > label > span > textarea{
+#wpcf7-f104-p110-o1 > form > div.contactform > p:nth-child(3) > label > span > textarea {
     background-color: #ffffff;
     border-radius: 7px;
     border: none;
@@ -36,6 +41,8 @@ Version: 1.0
     width: 198px;
     height: 55px;
     border-radius: 5px;
+    display: block;
+    margin: 0 auto;
 }
 /*******page commander*******/
 .page-id-132 #content-wrap {
@@ -63,7 +70,7 @@ Version: 1.0
     background-color: #ffffff;
     width: 39px;
     height: 56px;
-   }
+}
 
 #wpcf7-f172-p132-o1 > form > div.compteur > p:nth-child(2) > span > input {
     background-color: #ffffff;
@@ -99,6 +106,7 @@ Version: 1.0
     font-weight: 700;
     color: #ffffff;
 }
+
 .col1 p input {
     background-color: #ffffff;
     border-radius: 7px;
@@ -146,20 +154,118 @@ Version: 1.0
 
 .submit {
     display: flex;
+    text-align: center;
     justify-content: center;
     padding-top: 30px;
+}
+
+#wpcf7-f172-p132-o1 > form > div.submit > p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #wpcf7-f172-p132-o1 > form > div.submit > p > input {
     border-radius: 5px;
     width: 198px;
-    height: 55px;
+    height: 55px;   
+}
+/*********Header********/
+#masthead > div > div {
+    margin: 0;
+    padding: 0;
 }
 
-@media screen (max-width : 1024px) {
-
+#masthead > div > div > div.elementor-element.elementor-element-efafd52.e-con-full.e-flex.e-con.e-child {
+    padding-top: 30px;
 }
 
-@media screen (max-width : 768px) {
+#masthead > div > div > div.elementor-element.elementor-element-8030a99.e-con-full.e-flex.e-con.e-child {
+    padding: 0;
+}
+
+#menu-1-d0c536d a, .menu-admin a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Syne", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 0px;
+}
+
+#menu-1-d0c536d li {
+    order: 0;
+}
+
+#menu-1-d0c536d > li.menu-item.menu-admin {
+    order: 1;
+}
+
+#menu-1-d0c536d #menu-item-140 {
+    order: 2;
+}
+
+footer .menu-admin {
+    display: none;
+}
+
+@media screen and (max-width : 1024px) {
+
+/******logo******/
+
+#masthead > div > div > div.elementor-element.elementor-element-efafd52.e-con-full.e-flex.e-con.e-child > div > div > div > a > div > div > img {
     
+}
+
+/******page commander******/
+.colonnes {
+       flex-direction: column;
+       align-items: center;
+}
+
+.col1, .col2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col1 {
+    border-style: none;
+}
+
+.col2 {
+    padding-left: 0px;
+}
+.col2 p label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
+
+@media screen and (max-width : 768px) {
+ /******page nous rencontrer*****/
+ .contactform p input {
+    width: 100%;
+    height: auto;
+ }
+ /**************image hero**********/
+ #content > article > div > div > div.elementor-element.elementor-element-524bb3f.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div.elementor-element.elementor-element-fd26bab.elementor-position-left.elementor-vertical-align-bottom.elementor-absolute.elementor-widget.elementor-widget-image-box > div > div > figure {
+    margin: 0;
+    padding: 0;
+ }
+ #content > article > div > div > div.elementor-element.elementor-element-524bb3f.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div.elementor-element.elementor-element-fd26bab.elementor-position-left.elementor-vertical-align-bottom.elementor-absolute.elementor-widget.elementor-widget-image-box > div > div > figure > img {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+ }
+
+    /*******page commander*******/
+.col1 p input, .col2 p input {
+        width: 100%; 
+        height: auto; 
+    }
+         
 }
