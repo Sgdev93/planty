@@ -50,11 +50,6 @@ Version: 1.0
     align-items: center;
 }
 
-/******Accueil***********/
-#content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div {
-    width: auto;
-}
-
 /******page Nous rencontrer ******/
 .contactform label {
     font-family: 'syne';
@@ -212,12 +207,6 @@ Version: 1.0
 }
 
 @media screen and (max-width : 1024px) {
-
-/******logo******/
-
-#masthead > div > div > div.elementor-element.elementor-element-efafd52.e-con-full.e-flex.e-con.e-child > div > div > div > a > div > div > img {
-    
-}
 
 /*****page nous rencontrer******/
 #content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {

@@ -35,7 +35,7 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
 function ajouter_lien_admin_menu($items, $args) {
    echo $args->theme_location;
-	// Vérifie si l'utilisateur est connecté et a la capacité d'administrer
+	// Vérifie si l'utilisateur est connecté 
     if (is_user_logged_in()) {
         // lien d'administration au menu
         $items .= '<li class="menu-item menu-admin"><a href="' . admin_url() . '">Admin</a></li>';
