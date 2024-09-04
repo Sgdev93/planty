@@ -77,7 +77,13 @@ Version: 1.0
     border-radius: 5px;
     display: block;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+
 /*******page commander*******/
 .page-id-132 #content-wrap {
     background-color: #3b8e46;
@@ -212,6 +218,11 @@ Version: 1.0
 #content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {
     width: 80%;
 }
+
+#content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div {
+    width: fit-content;
+}
+
 /******page commander******/
 .colonnes {
        flex-direction: column;

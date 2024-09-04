@@ -33,14 +33,14 @@ function oceanwp_child_enqueue_parent_style() {
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
 
-function ajouter_lien_admin_menu($items, $args) {
-   echo $args->theme_location;
-	// Vérifie si l'utilisateur est connecté 
+function ajouter_lien_admin_menu($items) {
+    
+    	// Vérifie si l'utilisateur est connecté 
     if (is_user_logged_in()) {
         // lien d'administration au menu
         $items .= '<li class="menu-item menu-admin"><a href="' . admin_url() . '">Admin</a></li>';
     }
     return $items;
 }
-add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu', 10, 2);
+add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu', 10, 1);
 
