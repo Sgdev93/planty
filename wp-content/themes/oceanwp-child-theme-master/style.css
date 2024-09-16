@@ -38,6 +38,11 @@ Version: 1.0
     order: 0;
 }
 
+#menu-1-d0c536d li a {
+    background-color: #ffffff;
+}
+
+
 #menu-1-d0c536d > li.menu-item.menu-admin {
     order: 1;
 }
@@ -46,10 +51,40 @@ Version: 1.0
     order: 2;
 }
 
+#menu-1-d0c536d #menu-item-140 a {
+    color: white;
+    background-color: #DC9F96;
+}
+
+#menu-1-d0c536d #menu-item-140 a:hover {
+    background-color:#C02E44;
+}
+
 #menu-1-d0c536d {
     align-items: center;
 }
 
+
+/*******Page Accueil*******/
+#content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+ 
+
+.elementor-element-118d7ac8 .e-con-inner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+ }
+#content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div > div > div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 /******page Nous rencontrer ******/
 .contactform label {
     font-family: 'syne';
@@ -85,7 +120,7 @@ Version: 1.0
 
 
 /*******page commander*******/
-.page-id-132 #content-wrap {
+.page-id-132 {
     background-color: #3b8e46;
 }
 
@@ -214,14 +249,12 @@ Version: 1.0
 
 @media screen and (max-width : 1024px) {
 
+  
 /*****page nous rencontrer******/
-#content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {
-    width: 80%;
-}
 
-#content > article > div > div > div.elementor-element.elementor-element-0fa1455.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div {
-    width: fit-content;
-}
+#content > article > div > div > div.elementor-element.elementor-element-7dbe6a3.e-con-full.e-flex.e-con.e-parent.e-lazyloaded {
+    background-position: 20% 85%;
+ }
 
 /******page commander******/
 .colonnes {
@@ -248,23 +281,30 @@ Version: 1.0
     flex-direction: column;
     align-items: flex-start;
     }
+
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 769px) {
+   
  /******page nous rencontrer*****/
  .contactform p input {
     width: 100%;
     height: auto;
+ }
+ #content > article > div > div > div.elementor-element.elementor-element-7dbe6a3.e-con-full.e-flex.e-con.e-parent.e-lazyloaded {
+    background-image: none;
+ }
+ 
+ #content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {
+    width: 80%;
+}
+
  }
  /**************image hero**********/
  #content > article > div > div > div.elementor-element.elementor-element-524bb3f.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div.elementor-element.elementor-element-fd26bab.elementor-position-left.elementor-vertical-align-bottom.elementor-absolute.elementor-widget.elementor-widget-image-box > div > div > figure {
     display: none;
  }
  
-/************feuille équipe*************/
-#content > article > div > div > div.elementor-element.elementor-element-deaf78e.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-430f00a.elementor-absolute.elementor-position-top.elementor-widget.elementor-widget-image-box > div > div > figure > img {
-    width: 60%;
-}
     /*******page commander*******/
 .col1 p input, .col2 p input {
         width: 100%; 
